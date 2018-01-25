@@ -13,12 +13,12 @@ public class MainController {
     public String print_grade()
     {
 
-        int testScore = 0;
-        int scorePercentage = 0;
+        double testScore = 0;
+        double scorePercentage = 0;
         String letterGrade = "";
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Enter test score.");
-        testScore = keyboard.nextInt();
+        testScore = keyboard.nextDouble();
         scorePercentage = testScore * 2;
 
 
